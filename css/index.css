@@ -1,0 +1,349 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar-brand img{
+    width: 250px;
+    height: 100px;
+}
+.nav-item .pricelist{
+ border: 2px solid white;
+ border-radius: 50px;
+ color: white;
+}
+.nav-item .pricelist:hover{
+background-color: white;
+color: black;
+}
+/* Nested dropdown styles */
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    right: 100%;
+    margin-top: -1px;
+    display: none;
+  }
+  
+  .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+  }
+  
+
+.carousel-item img{
+
+    height: 500px;
+}
+.section img{
+    width: 500px;
+    height: 500px;
+}
+.rah{
+    color: aqua;
+}
+.card img{
+    height: 250px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#navbar{
+
+    background-color: #1A253C !important;
+    color: white !important;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .15sease-in-out, background-color .15sease-in-out, border-color .15sease-in-out;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content p, .social-links {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #00aced;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ffcc00;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.contactlinks{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ 
+ justify-content: center;
+}
+.secsection img{
+    height: 380px;
+}
+
+/* .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0PX;
+    word-wrap: break-word;
+    background-color:transparent;
+    background-clip: border-box;
+    border: 3px solid white;
+    border-radius: 30px;
+    gap: 0PX;
+
+}
+.card:hover{
+    background-color: wheat;
+   
+
+}
+.btn:hover{
+    border: 2px solid black;
+    background-color: transparent; */
+
+
+   
+    
+    .card {
+        position: relative;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+        background-color: transparent;
+    
+    }
+    
+    .card:hover {
+        transform: scale(1.05);
+    }
+    
+    .card img {
+        width: 100%;
+        height: 150px;
+        display: block;
+        background-color: black;
+    }
+    
+    .card-info {
+        position: absolute;
+        bottom: 0px; /* Adjusted to move text slightly up */
+       
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .card-info h3{
+        font-family: "Merienda", serif;
+        font-size: 15px;
+    }
+    
+    .price {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+    .btn {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #1A253C; 
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    
+    .btn:hover {
+        background-color: white;
+    }
+.buyer-protection {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1A253C; /* This color will apply to both text and image backgrounds */
+    color: white;
+}
+
+.buyer-protection ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.buyer-protection li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.buyer-protection li::before {
+    content: '\2714';
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.protection-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.protection-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.protection-img {
+    border-radius: 10px;
+}
+
+
+
+.video-section video {
+   background-color: #1A253C;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.485);
+}
+#footer{
+
+    background-color: #1A253C;
+
+
+
+}
+.ff img{
+    width: 500px;
+    height: 320px;
+
+}
+.bb img{
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.ww img{
+    width: 550px;
+    height: 300px;
+}
+.meeram {
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 2px;
+    background-color: #1A253C;
+    text-align: justify;
+    color: #ddd;
+}
+
+.sec img{
+    width: 500px;
+
+    height: 250px;
+}
+.ai img{
+    background-color: black;
+}
+.aside {
+    text-align: center;
+    margin-top: 80px;
+    justify-content: center;
+}
+.ded{
+    text-align: justify;
+}
+/* contact us */
+.formcontainer input {
+    border-radius: 50px;
+    font-size: 14px;
+
+}
+
+.formcontainer input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #14213d !important;
+
+}
+
+.formcontainer textarea {
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.formcontainer textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 2px solid #14213d !important;
+}
+
+.infosection i {
+    font-size: 30px;
+    color:  #14213d !important;
+}
+
+.infosection {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.emailinfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+
+
+}
+.emailinfo h6{
+    color: #14213d !important;
+  
+}
+.btn-famous:hover{
+border: 2px solid #14213d;
+background-color: transparent;
+color: rgb(0, 0, 0);
+}
